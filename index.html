@@ -3,13 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Tabela de horários - 1INFO1</title>
 </head>
 <body>
+    <div class="turmas">
+        <h2>TURMAS</h2>
+        <ul class="turmaul">
+            <li><a href="#">1INFO1</a></li>
+            <li><a href="#">1INFO2</a></li>
+            <li><a href="#">1INFO3</a></li>
+            <li><a href="#">1AGRO1</a></li>
+            <li><a href="#">1AGRO2</a></li>
+            <li><a href="#">1AGRO3</a></li>
+            <li><a href="#">1QUIMI</a></li>
+            <li><a href="#">2INFO1</a></li>
+            <li><a href="#">2INFO2</a></li>
+            <li><a href="#">2INFO3</a></li>
+            <li><a href="#">2AGRO1</a></li>
+            <li><a href="#">2AGRO2</a></li>
+            <li><a href="#">2AGRO3</a></li>
+            <li><a href="#">2QUIMI</a></li>
+            <li><a href="#">3INFO1</a></li>
+            <li><a href="#">3INFO2</a></li>
+            <li><a href="#">3INFO3</a></li>
+            <li><a href="#">3AGRO1</a></li>
+            <li><a href="#">3AGRO2</a></li>
+            <li><a href="#">3AGRO3</a></li>
+            <li><a href="#">3QUIMI</a></li>
+        </ul>
+    </div>
+    
+    <section class="introducao">
+        <div class="titulo">
+            <h1>Tabela de horários turma 1INFO1</h1>
+        </div>
+        <div class="img">
+            <img src="download.png" alt="">
+        </div>
+    </section>
     <main>
         <table>
             <tr>
-                <th>1INFO1</th>
+                <th colspan="7">1INFO1</th>
             </tr>
             <tr>
                 <th>Aulas</th>
@@ -22,74 +58,112 @@
             </tr>
             <tr>
                 <th>Aula 1 M</th>
-                <td>vazio</td>
-                <td>vazio</td>
-                <td>vazio</td>
-                <td>vazio</td>
-                <td>vazio</td>
+                <td>---</td>
+                <td>---</td>
+                <td>---</td>
+                <td>---</td>
+                <td>---</td>
+                <td>---</td>
             </tr>
             <tr>
                 <th>Aula 2 M</th>
-                <td>História - Ivan Furman E205</td>
-                <td>Matematica - Vanessa Neves E205</td>
-                <td>Programação - Fabio Moura B3</td>
-                <td>Artes - Alessandra Sala de Artes</td>
-                <td>Geografia - Luiz Antônio E205</td>
+                <td rowspan="2">História - Ivan Furman E205</td>
+                <td rowspan="2">Matematica - Vanessa Neves E205</td>
+                <td rowspan="2">Programação - Fabio Moura B3</td>
+                <td rowspan="2">Artes - Alessandra Sala de Artes</td>
+                <td rowspan="2">Geografia - Luiz Antônio E205</td>
+                <td>---</td>
             </tr>
             <tr>
                 <th>Aula 3 M</th>
+                <td>---</td>
             </tr>
             <tr>
                 <th>Intervalo M</th>
-                <td>vazio</td>
-                <td>vazio</td>
-                <td>vazio</td>
-                <td>vazio</td>
-                <td>vazio</td>
+                <td>---</td>
+                <td>---</td>
+                <td>---</td>
+                <td>---</td>
+                <td>---</td>
+                <td>---</td>
             </tr>
             <tr>
                 <th>Aula 4 M</th>
-                <td>Lingua Portuguesa - Patrícia E205</td>
-                <td>Quimica - Renata H. E205</td>
-                <td>Fisica - Marcelo Salvador E206</td>
-                <td>Desenvolvimento Web - Orlando B3</td>
-                <td>Biologia - Héder E205</td>
+                <td rowspan="2">Lingua Portuguesa - Patrícia E205</td>
+                <td rowspan="2">Quimica - Renata H. E205</td>
+                <td rowspan="2">Fisica - Marcelo Salvador E206</td>
+                <td rowspan="3">Desenvolvimento Web - Orlando B3</td>
+                <td rowspan="2">Biologia - Héder E205</td>
+                <td>---</td>
             </tr>
             <tr>
                 <th>Aula 5 M</th>
-                <td></td>
+                <td>---</td>
             </tr>
             <tr>
                 <th>Aula 6 M</th>
-                <td>vazio</td>
+                <td>---</td>
                 <td>Lingua Portuguesa - Patrícia E205</td>
-                <td>vazio</td>
-                <td>vazio</td>
+                <td>---</td>
+                <td>---</td>
+                <td>---</td>
             </tr>
             <tr>
                 <th>Almoço</th>
-                <td>vazio</td>
-                <td>vazio</td>
-                <td>vazio</td>
-                <td>vazio</td>
-                <td>vazio</td>
+                <td>---</td>
+                <td>---</td>
+                <td>---</td>
+                <td>---</td>
+                <td>---</td>
+                <td>---</td>
             </tr>
             <tr>
                 <th>Aula 1 V</th>
-                <td>vazio</td>
-                <td>vazio</td>
+                <td>---</td>
+                <td>---</td>
                 <td>Matematica - Vanessa Neves E205</td>
-                <td>vazio</td>
-                <td>vazio</td>
-                <td>vazio</td>
+                <td>---</td>
+                <td>---</td>
+                <td>---</td>
             </tr>
             <tr>
                 <th>Aula 2 V</th>
-                <td>vazio</td>
-                <td>CLIFC</td>
-                <td>Intr. Comp. - Daniel Santos A11</td>
-                <td>vazio</td>
-                <td>Ed Fisica - Marcio Souza Ginásio</td>
+                <td>---</td>
+                <td rowspan="2">CLIFC</td>
+                <td rowspan="2">Intr. Comp. - Daniel Santos A11</td>
+                <td>---</td>
+                <td rowspan="2">Ed Fisica - Marcio Souza Ginásio</td>
+                <td>---</td>
+            </tr>
+            <tr>
+                <th>Aula 3 V</th>
+                <td>---</td>
+                <td>---</td>
+                <td>---</td>
+            </tr>
+            <tr>
+                <th>Intervalo V</th>
+                <td>---</td>
+                <td>---</td>
+                <td>---</td>
+                <td>---</td>
+                <td>---</td>
+                <td>---</td>
+            </tr>
+            <tr>
+                <th>Aula 4 V</th>
+                <td>---</td>
+                <td rowspan="2">CLIFC</td>
+                <td rowspan="2">Projeto Integrador - Kennedy A11</td>
+                <td>---</td>
+                <td rowspan="2">Programação - Fabio Moura B3</td>
+                <td>---</td>
+            </tr>
+            <tr>
+                <th>Aula 5 V</th>
+                <td>---</td>
+                <td>---</td>
+                <td>---</td>
             </tr>
         </table>
     </main>
